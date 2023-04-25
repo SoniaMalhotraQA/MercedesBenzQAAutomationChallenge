@@ -1,4 +1,3 @@
-<!-- ABOUT -->
 # Mercedes-Benz Automation Challenge
 This Code solves Mercedes-Benz QA automation challenge using java 11, selenium and maven.
 
@@ -16,41 +15,40 @@ The selenium test automates the following test case “Validate A Class models p
 
 
 
-<!-- GETTING STARTED -->
+## Prerequisites
+
+Make sure you have Java 11 and maven installed on your machine
+
+Install Java 11
+https://www.oracle.com/de/java/technologies/javase/jdk11-archive-downloads.html
+
+Install Maven (Apache Maven 3.6.3 or above)
+https://maven.apache.org/install.html
+
+
 ## Getting Started
-
-You should have Java 11 and maven on your system
-
-### Prerequisites
-
-#### Install JAVA 11
-#### Install Maven
-
-
-### Installation
 
 1. Clone the repo
    ```sh
    git clone https://github.com/SoniaMalhotraQA/MercedesBenzQAAutomationChallenge.git
    ```
-2. Install dependencies
+2. Run test (Default browser will be chrome)
    ```sh
-   mvn clean install
+   mvn clean test
    ```
 
 
 
-<!-- USAGE EXAMPLES -->
 ## Usage
 
 * Run Test (default Browser will be chrome)
 ```sh
 mvn clean test
    ```
-* Run Tests on Edge
+* Run Test on Edge
  ```sh
 mvn clean test -Dbrowser=edge
    ```
-* Run Tests on chrome
+* Run Test on chrome
  ```sh
 mvn clean test -Dbrowser=chrome
