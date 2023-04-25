@@ -49,10 +49,11 @@ mvn clean test
  ```sh
 mvn clean test -Dbrowser=edge
    ```
-* Run Test on chrome
+* Run Test on Chrome
  ```sh
 mvn clean test -Dbrowser=chrome
+   ```
 
-##
-* Screenshot will be saved under /results/screenshot
-* Text file with highest and minimum price values will saved in /results/resultFile.text
+## Results
+* Screenshot will be saved under results/screenshot
+* Text file with highest and minimum price values will saved in results/resultFile.text
