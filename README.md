@@ -52,3 +52,7 @@ mvn clean test -Dbrowser=edge
 * Run Test on chrome
  ```sh
 mvn clean test -Dbrowser=chrome
+
+##
+* Screenshot will be saved under /results/screenshot
+* Text file with highest and minimum price values will saved in /results/resultFile.text
