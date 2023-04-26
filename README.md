@@ -56,4 +56,4 @@ mvn clean test -Dbrowser=chrome
 
 ## Results
 * Screenshot will be saved under results/screenshot
-* Text file with highest and minimum price values will saved in results/resultFile.text
+* Text file with highest and lowest price values will saved in results/resultFile.text
